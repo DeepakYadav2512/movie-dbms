@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      h1{
+        color:#3537AF;
+        font-family: "Montserrat-bold";
+        font-size: 2.5rem;
+        font-weight: bold;
+      text-align:center;
+      padding: 20px ;
+      margin:auto;
+      background-color:#f1f1f1;
+      }
+
+      .container {
+        padding: 0px 400px;
+        margin-top:0px;
+      }
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+
+      .button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+
+      .inp{
+margin-bottom:20px;
+  }
+
+  input[type=text], input[type=date], input[type=time]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .foot{
+    text-align:center;
+  }
+
+
+
+    </style>
+
+    <title>add-theatre</title>
+  </head>
+
+
+
+  <body>
+    <h1>BOOK_OUR_SHOW</h1>
+    <form class="" action=" " method="post" style="border:1px solid #ccc">
+
+
+
+        <p style="text-align:center;">Please fill in this form to add the movies.</p>
+        <hr>
+
+       <div class="container">
+         <input class="inp" type="text" name="theater_name" value="" placeholder="Theater name ">
+         <br>
+         <input class="inp" type="text" name="movie_of_theater" value="" placeholder="Select movie of your theater">
+         <br>
+         <input class="inp"type="time" name="time" value="" placeholder="select time">
+         <br>
+         <input class="inp" type="date" name="date" value=" " placeholder="select date ">
+         <br>
+         <input class="inp" type="text" name="area" value="" placeholder="select the area">
+         <br>
+         <input class="button" type="button" name="button" value="add theater to DB">
+
+
+
+       </div>
+
+       <div class="foot">
+         <a href="adminoptions.html">go to edit screen !</a>
+         </div>
+
+
+
+
+    </form>
+
+  </body>
+</html>
